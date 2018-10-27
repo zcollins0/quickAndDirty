@@ -29,7 +29,7 @@ with open("memberInfo2.json", 'r') as data_file:
     for idData in data:
         print(str(idData['profile']['firstName'] + " " + str(idData['profile']['lastName'])), end=",")
         print(str(idData['email']), end=",")
-        print(str(idData["service"]), end=",")
+        print(str(idData['service']), end=",")
         print()
 
 #print("File complete.")
